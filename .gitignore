@@ -1,0 +1,37 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Ignore .terraform directories
+**/.terraform/*
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+terraform.rc
+
+# Ignore sensitive files containing credentials, secret keys, etc.
+*.tfvars.*
+*.tfplan
+*.tfout
+*.pem
+*.key
+*.cer
+*.crt
+*.csr
+*.jks
+
+# Ignore crash log files
+crash.log
+
+# Ignore .tf files that should be processed with other tools
+*.template
+
+# Ignore all .DS_Store files
+.DS_Store
